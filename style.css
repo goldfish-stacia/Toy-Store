@@ -1,11 +1,11 @@
 body, html {
-    background-color: white
+    background-image: url(background2.png);
 }
 * {
     border:1px solid rgba(0, 0, 0, 1);
     font-family: 微軟正黑體;
     font-weight: bold;
-    color: white;
+    color: black;
     margin: 0;
     padding: 0;
     /* position: relative; */
@@ -52,13 +52,16 @@ nav div {
     font-size: 32px;
     text-align: center;
 }
+nav a {
+    color: white;
+}
 nav a, div {
     vertical-align: center;
     margin: 0px 50px;
 }
 /* 首頁 home */
 #home {
-    background-color: rgba(250, 160, 45, 1);
+    background-color: #EDEF69;
     padding-top: 140px;
     height: 630px;
     text-align: center;
