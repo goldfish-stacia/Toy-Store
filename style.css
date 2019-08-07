@@ -1,22 +1,16 @@
 body, html {
-    background-color: #fffffff;
+    background-color: rgba(135, 198, 55, 1);
 }
 * {
-    /* border:1px solid rgba(0, 0, 0, 1); */
+    border:1px solid rgba(255, 0, 0, 0.6);
     font-family: 微軟正黑體;
     font-weight: bold;
-    color: black;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 section, nav {
     width: 100%;
-}
-section {
-    /* position: relative;
-    top: 60px;
-    padding-top: 140px;
-    height: 630px; */
 }
 a {
     text-decoration: none;
@@ -33,19 +27,19 @@ p {
 }
 /* TOP鍵 */
 #top {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #fff;
     position: fixed;
     right: 10px;
     bottom: 10px;
     display: inline-block;
-    padding: 20px;
-    border-radius: 50%;
+    padding: 15px;
+    border-radius: 100%;
     border: 2px solid #fff;
-}
-#top:hover {
     background-color: #fff;
     color: rgba(70, 220, 255, 1);
+}
+#top:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
 }
 /* 導覽列 */
 nav {
@@ -66,9 +60,6 @@ nav div {
     font-size: 32px;
     text-align: center;
 }
-nav a {
-    color: white;
-}
 nav a, div {
     vertical-align: center;
     margin: 0px 50px;
@@ -85,12 +76,10 @@ nav a, div {
 #home div{
     display: inline-block;
     width: 30%;
-    text-align: center;
 }
 #home h1, h2, p {
     margin-top: 20px;
     text-align: left;
-    color: #fff;
 }
 #home h2, p {
     text-indent: 20px;
@@ -99,7 +88,6 @@ nav a, div {
     margin-top: 60px;
     display: inline-block;
     padding: 10px 50px;
-    color: #fff;
     background-color: rgba(70, 220, 255, 0.5);
     border-radius: 10px;
     border: 2px solid #fff;
@@ -110,17 +98,56 @@ nav a, div {
 }
 /* 關於 about */
 #about {
-    /* background-color:  rgba(240, 60, 55, 1); */
+    padding: 150px 0 90px;
+    /* border-bottom: 2px solid #fff; */
+}
+#about #boxo {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+#about #boxi {
+    width: 50%;
+    display: inline-block;
+    vertical-align: 20px;
+}
+#about img {
+    width: 40%;
+    margin: 5px;
+}
+#about h1 {
+    border-bottom: 2px solid #fff;
+}
+#about p {
+    margin-left: 20px;
+    text-align: justify;
 }
 /* 產品 products */
 #products {
-    /* background-color:  rgba(250, 160, 45, 1): */
+    /* background-color: rgba(255, 255, 255, 1); */
+    margin: 0 auto;
+    padding: 110px 0 90px;
+    width: 90%;
+    text-align: center;
 }
-#products div img {
+#products h1 {
+    display: inline-block;
+    width: 60%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 60px;
+}
+#products img {
+    box-sizing: border-box;
     width: 300px;
+    height: 200px;
 }
-#products div {
+#products .kind {
     display: inline-block;
     width: 300px;
-    height: 600px;
+    height: 440px;
+    /* padding: 0 0 10px 0; */
+}
+#products p {
+    margin: 20px;
+    text-align: justify;
 }
