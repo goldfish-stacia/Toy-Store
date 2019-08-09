@@ -1,5 +1,5 @@
 body, html {
-    background-color: rgba(135, 198, 55, 1);
+    background: linear-gradient(to left, #8AC837, #19AFAF); 
 }
 * {
     border:1px solid rgba(255, 0, 0, 0.6);
@@ -28,18 +28,18 @@ p {
 /* TOP鍵 */
 #top {
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 20px;
+    bottom: 20px;
     display: inline-block;
     padding: 15px;
-    border-radius: 100%;
-    border: 2px solid #fff;
-    background-color: #fff;
-    color: rgba(70, 220, 255, 1);
+    /* border-radius: 100%; */
+    /* border: 2px solid #fff; */
+    /* background-color: #fff; */
+    color: #fff;
 }
 #top:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #ffffff;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* color: #ffffff; */
 }
 /* 導覽列 */
 nav {
@@ -64,6 +64,13 @@ nav a, div {
     vertical-align: center;
     margin: 0px 50px;
 }
+nav a {
+    display: inline-block;
+    line-height: 30px;
+}
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
 /* 首頁 home */
 #home {
     background-image: url(https://images3.alphacoders.com/391/thumb-1920-3915.jpg);
@@ -80,9 +87,6 @@ nav a, div {
 #home h1, h2, p {
     margin-top: 20px;
     text-align: left;
-}
-#home h2, p {
-    text-indent: 20px;
 }
 #home a {
     margin-top: 60px;
@@ -117,6 +121,7 @@ nav a, div {
 }
 #about h1 {
     border-bottom: 2px solid #fff;
+    text-indent: 10px;
 }
 #about p {
     margin-left: 20px;
@@ -127,7 +132,7 @@ nav a, div {
     /* background-color: rgba(255, 255, 255, 1); */
     margin: 0 auto;
     padding: 110px 0 90px;
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 #products h1 {
@@ -142,12 +147,46 @@ nav a, div {
     height: 200px;
 }
 #products .kind {
+    background-color: rgba(255, 255, 255, 0.3);
     display: inline-block;
     width: 300px;
-    height: 440px;
-    /* padding: 0 0 10px 0; */
+    height: 410px;
+    padding: 15px;
+}
+#products h2 {
+    line-height: 40px;
+    margin: 15px 0;
+    border-bottom: 2px solid #fff;
+    text-indent: 10px;
 }
 #products p {
-    margin: 20px;
     text-align: justify;
 }
+/* 分店 location */
+#location {
+    margin: 140px auto;
+    width: 1024px;
+}
+#location div {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+#location h1 {
+    /* margin-bottom: 10px; */
+    border-bottom: 2px solid #fff;
+}
+#location h2 {
+    margin: 20px 0 0;
+    background-image: url(https://picsum.photos/id/101/200/200);
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+#location p {
+    margin: 0;
+    display: inline-block;
+    width: 300px;
+    vertical-align: bottom;
+}
+/*  */
