@@ -1,8 +1,8 @@
 body, html {
-    background: linear-gradient(to left, #8AC837, #19AFAF); 
+    background: linear-gradient(to bottom, #91CB38, #19AFAF); 
 }
 * {
-    border:1px solid rgba(255, 0, 0, 0.6);
+    /* border:1px solid rgba(255, 0, 0, 0.6); */
     font-family: 微軟正黑體;
     font-weight: bold;
     color: #fff;
@@ -32,10 +32,8 @@ p {
     bottom: 20px;
     display: inline-block;
     padding: 15px;
-    /* border-radius: 100%; */
-    /* border: 2px solid #fff; */
-    /* background-color: #fff; */
     color: #fff;
+    text-align: center;
 }
 /* 導覽列 */
 nav {
@@ -133,7 +131,7 @@ nav a:hover {
 }
 #products h1 {
     display: inline-block;
-    width: 60%;
+    width: 800px;
     border-bottom: 2px solid #fff;
     margin-bottom: 60px;
 }
@@ -160,8 +158,9 @@ nav a:hover {
 }
 /* 分店 location */
 #location {
-    margin: 140px auto;
-    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0 80px;
+    width: 1024px;
 }
 #location div {
     padding: 0;
@@ -169,8 +168,10 @@ nav a:hover {
     display: inline-block;
 }
 #location h1 {
-    /* margin-bottom: 10px; */
     border-bottom: 2px solid #fff;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto 50px;
 }
 #location h2 {
     margin: 20px 0 0;
@@ -187,12 +188,34 @@ nav a:hover {
 }
 /* 聯絡資訊 contact */
 #contact {
-    height: 600px;
+    margin: 0 auto;
+    padding: 120px 0 60px;
+    width: 1110px;
+}
+#contact h1{
+    margin: 0 0 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #fff; 
 }
 #contact a {
-    /* display: inline-block; */
-    padding: 200px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    border: 2px solid #fff;
+    padding: 60px;
+    margin: 60px;
+}
+#contact a:hover{
+    background-color: rgba(255, 255, 255, 1);
 }
 #contact img {
-    width: 200px;
+    width: 120px;
+}
+/* footer */
+footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    line-height: 80px;
 }
