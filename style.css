@@ -37,10 +37,6 @@ p {
     /* background-color: #fff; */
     color: #fff;
 }
-#top:hover {
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    /* color: #ffffff; */
-}
 /* 導覽列 */
 nav {
     background-color: rgba(25, 175, 175, 1);
@@ -165,7 +161,7 @@ nav a:hover {
 /* 分店 location */
 #location {
     margin: 140px auto;
-    width: 1024px;
+    width: 100%;
 }
 #location div {
     padding: 0;
@@ -191,9 +187,12 @@ nav a:hover {
 }
 /* 聯絡資訊 contact */
 #contact {
-    display: inline-block;
+    height: 600px;
 }
-#contact #call {
-    background-image: url(call.png);
-    width: 100px;
+#contact a {
+    /* display: inline-block; */
+    padding: 200px;
+}
+#contact img {
+    width: 200px;
 }
