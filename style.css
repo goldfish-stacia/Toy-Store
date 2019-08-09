@@ -189,4 +189,11 @@ nav a:hover {
     width: 300px;
     vertical-align: bottom;
 }
-/*  */
+/* 聯絡資訊 contact */
+#contact {
+    display: inline-block;
+}
+#contact #call {
+    background-image: url(call.png);
+    width: 100px;
+}
