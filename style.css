@@ -81,19 +81,21 @@ nav a:hover {
 #home h1, h2, p {
     margin-top: 20px;
     text-align: left;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 #home a {
     margin-top: 60px;
     display: inline-block;
     padding: 10px 50px;
-    background-color: rgba(70, 220, 255, 0.5);
+    background-color: rgba(70, 220, 255, 0.8);
     border-radius: 10px;
     border: 2px solid #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 #home a:hover {
     background-color: #fff;
     color: rgba(70, 220, 255, 1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 /* 關於 about */
 #about {
