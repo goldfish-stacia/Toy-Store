@@ -81,7 +81,7 @@ nav a:hover {
 #home h1, h2, p {
     margin-top: 20px;
     text-align: left;
-    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 #home a {
     margin-top: 60px;
